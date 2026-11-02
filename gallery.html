@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFARI - Column Gallery</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #00ffcc;
+            font-family: 'Courier New', monospace;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            border-bottom: 3px solid #ff00ff;
+            padding-bottom: 20px;
+        }
+        .column-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .column-box {
+            background-color: #222;
+            border: 2px solid #ff00ff;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Safari 3-Column Data Vault</h1>
+        <p><a href="index.html" style="color: #ff00ff;">Back to Home Page</a></p>
+    </header>
+    
+    <main>
+        <div class="column-container">
+            <div class="column-box">
+                <h2>Column 1: Predators</h2>
+                <p>Lions and leopards rule the grasslands with stealth and raw power.</p>
+            </div>
+            <div class="column-box">
+                <h2>Column 2: Giants</h2>
+                <p>Elephants and rhinos carry the massive weight of the ecosystem.</p>
+            </div>
+            <div class="column-box">
+                <h2>Column 3: Herbivores</h2>
+                <p>Buffaloes roam in heavy numbers across the terrain.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
